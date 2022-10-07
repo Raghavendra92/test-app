@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid lightgray;
+}
+
+tr:hover,
+tr.checked {
+  background-color: lightgray;
+}
+
+td {
+  padding: 10px 40px;
+  text-align: left;
+}
+
+td:first-child {
+  padding: 10px;
+  text-align: left;
+}
+.rounded-icon {
+  border-radius: 10px;
+  border: 1px solid white;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: green;
+  margin-right: 5px;
+  margin-left: -20px;
+}
+.status-name {
+  text-transform: capitalize;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+}
+.download-btn {
+  margin-right: 5px;
+}
